@@ -1,0 +1,118 @@
+2017-11-29 18:08:29 WebappLoader[/examples]: Deploying class repositories to work directory D:\MyProject\tomcat4\work\Standalone\localhost\examples
+2017-11-29 18:08:29 WebappLoader[/examples]: Deploy class files /WEB-INF/classes to D:\MyProject\tomcat4\webapps\examples\WEB-INF\classes
+2017-11-29 18:08:29 WebappLoader[/examples]: Reloading checks are enabled for this Context
+2017-11-29 18:08:30 ContextConfig[/examples]: Configured an authenticator for method FORM
+2017-11-29 18:08:30 StandardManager[/examples]: Seeding random number generator class java.security.SecureRandom
+2017-11-29 18:08:30 StandardManager[/examples]: Seeding of random number generator has been completed
+2017-11-29 18:08:30 ContextListener: contextInitialized()
+2017-11-29 18:08:30 SessionListener: contextInitialized()
+2017-11-29 18:08:30 StandardWrapper[/examples:default]: Loading container servlet default
+2017-11-29 18:08:30 StandardWrapper[/examples:invoker]: Loading container servlet invoker
+2017-11-29 18:08:30 StandardWrapper[/examples:jsp]: Marking servlet jsp as unavailable
+2017-11-29 18:08:30 StandardContext[/examples]: Servlet /examples threw load() exception
+javax.servlet.ServletException: Wrapper cannot find servlet class org.apache.jasper.servlet.JspServlet or a class it depends on
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:820)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:752)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3340)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:3528)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1125)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:664)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1125)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:277)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:433)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:2124)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:444)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:332)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:130)
+Caused by: java.lang.ClassNotFoundException: org.apache.jasper.servlet.JspServlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1372)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1217)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:814)
+	... 17 more
+----- Root Cause -----
+java.lang.ClassNotFoundException: org.apache.jasper.servlet.JspServlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1372)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1217)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:814)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:752)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3340)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:3528)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1125)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:664)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1125)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:277)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:433)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:2124)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:444)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:332)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:130)
+
+2017-11-29 18:10:14 WebappLoader[/examples]: Deploying class repositories to work directory D:\MyProject\tomcat4\work\Standalone\localhost\examples
+2017-11-29 18:10:14 WebappLoader[/examples]: Deploy class files /WEB-INF/classes to D:\MyProject\tomcat4\webapps\examples\WEB-INF\classes
+2017-11-29 18:10:14 WebappLoader[/examples]: Reloading checks are enabled for this Context
+2017-11-29 18:10:14 ContextConfig[/examples]: Configured an authenticator for method FORM
+2017-11-29 18:10:14 StandardManager[/examples]: Seeding random number generator class java.security.SecureRandom
+2017-11-29 18:10:14 StandardManager[/examples]: Seeding of random number generator has been completed
+2017-11-29 18:10:14 ContextListener: contextInitialized()
+2017-11-29 18:10:14 SessionListener: contextInitialized()
+2017-11-29 18:10:14 StandardWrapper[/examples:default]: Loading container servlet default
+2017-11-29 18:10:14 StandardWrapper[/examples:invoker]: Loading container servlet invoker
+2017-11-29 18:10:14 StandardWrapper[/examples:jsp]: Marking servlet jsp as unavailable
+2017-11-29 18:10:14 StandardContext[/examples]: Servlet /examples threw load() exception
+javax.servlet.ServletException: Wrapper cannot find servlet class org.apache.jasper.servlet.JspServlet or a class it depends on
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:820)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:752)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3340)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:3528)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1125)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:664)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1125)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:277)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:433)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:2124)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:444)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:332)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:130)
+Caused by: java.lang.ClassNotFoundException: org.apache.jasper.servlet.JspServlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1372)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1217)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:814)
+	... 17 more
+----- Root Cause -----
+java.lang.ClassNotFoundException: org.apache.jasper.servlet.JspServlet
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1372)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1217)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:814)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:752)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3340)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:3528)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1125)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:664)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1125)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:277)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:433)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:2124)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:444)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:332)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:130)
+
